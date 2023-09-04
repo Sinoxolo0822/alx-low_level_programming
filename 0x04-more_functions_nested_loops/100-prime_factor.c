@@ -11,7 +11,7 @@ int main(void)
 {
 	long prime = 612852475143, divisor;
 
-	while (divisor < prime / 2)
+	while (divisor < (prime / 2))
 	{
 		if ((prime % 2) == 0)
 		{
